@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">TakeNGo</string>
+
+    <string name="login">Login</string>
+    <string name="username">Username:  </string>
+    <string name="password">Password:  </string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">New? Register</string>
+    <string name="clear">Clear</string>
+
+    <string name="system_management">System Management</string>
+    <string name="welcome">Welcome</string>
+
+    <string name="enter">Enter</string>
+
+    <string name="users">Clients</string>
+    <string name="addClients">Add Client</string>
+    <string name="showClients">Show Clients</string>
+    <string name="clients_managment">Clients Managment</string>
+    <string name="id">ID: </string>
+    <string name="lastName">Last Name: </string>
+    <string name="firstName">First Name: </string>
+    <string name="phoneNum">Phone Number: </string>
+    <string name="email">Email: </string>
+    <string name="creditCard">Credit Card: </string>
+
+    <string name="branches">Branches</string>
+    <string name="branches_list">Branches List</string>
+
+    <string name="cars">Cars</string>
+    <string name="cars_managment">Cars Managment</string>
+    <string name="addCars">Add Cars</string>
+    <string name="branch">Branch: </string>
+    <string name="model">Model: </string>
+    <string name="mile">Mile: </string>
+    <string name="car_number">Car Number: </string>
+    <string name="color">Choose Color : </string>
+
+    <string name="car_model">Car Model</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/baselLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/tchelet"
+    android:orientation="vertical"
+    tools:context="com.example.dell.android5778_7109_3610_02.controllers.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:fontFamily="casual"
+        android:text="@string/system_management"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:text="@string/welcome"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="307dp"
+        android:layout_height="323dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="133dp">
+
+        <Button
+            android:id="@+id/userButton"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:fontFamily="casual"
+            android:text="@string/users"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="192dp" />
+
+        <Button
+            android:id="@+id/branchButton"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:fontFamily="casual"
+            android:text="@string/branches"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="192dp" />
+
+        <Button
+            android:id="@+id/modelButton"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:fontFamily="casual"
+            android:text="@string/car_model"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="192dp" />
+        <Button
+            android:id="@+id/carsButton"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:fontFamily="casual"
+            android:text="@string/cars"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="192dp" />
+
+    </LinearLayout>
+</LinearLayout>
